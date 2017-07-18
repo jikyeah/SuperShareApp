@@ -48,13 +48,23 @@ public class ShareManager {
             }
         } else if (share_way.equals(Constant.SHARE_WAY_FROM_ASSISTANT)) {
             if (share_to_platform.equals(Constant.PLATFORM_QQ)) {
-                ShareByAssistant.getInstance().ShareToQQ(context, bean);
+
             } else if (share_to_platform.equals(Constant.PLATFORM_QZONE)) {
-                ShareByAssistant.getInstance().ShareToQZone(context, bean);
+
             } else if (share_to_platform.equals(Constant.PLATFORM_WECHAT)) {
                 ShareByAssistant.getInstance().ShareToWechat(context, bean);
             } else if (share_to_platform.equals(Constant.PLATFORM_WECHAT_MONMENT)) {
                 ShareByAssistant.getInstance().ShareToWechatMonment(context, bean);
+            }
+        } else if (share_way.equals(Constant.SHARE_WAY_FROM_SUPPER)) {
+            if (share_to_platform.equals(Constant.PLATFORM_QQ)) {
+                ShareBySupper.getInstance().ShareToQQ(context, bean);
+            } else if (share_to_platform.equals(Constant.PLATFORM_QZONE)) {
+                ShareBySupper.getInstance().ShareToQZone(context, bean);
+            } else if (share_to_platform.equals(Constant.PLATFORM_WECHAT)) {
+                ShareBySupper.getInstance().ShareToWechat(context, bean);
+            } else if (share_to_platform.equals(Constant.PLATFORM_WECHAT_MONMENT)) {
+                ShareBySupper.getInstance().ShareToWechatMonment(context, bean);
             }
         }
 

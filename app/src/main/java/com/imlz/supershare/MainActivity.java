@@ -87,16 +87,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * 通过Schema、插件分享--------
+     * 通过插件分享--------
      */
-
-    public void shareToQQByAssistant(View view) {
-        ShareManager.startShare(MainActivity.this, Constant.SHARE_WAY_FROM_ASSISTANT, Constant.PLATFORM_QQ, shareData);
-    }
-
-    public void shareToQQZoneByAssistant(View view) {
-        ShareManager.startShare(MainActivity.this, Constant.SHARE_WAY_FROM_ASSISTANT, Constant.PLATFORM_QZONE, shareData);
-    }
 
     public void shareToWechatByAssistant(View view) {
         ShareManager.startShare(MainActivity.this, Constant.SHARE_WAY_FROM_ASSISTANT, Constant.PLATFORM_WECHAT, shareData);
@@ -112,7 +104,23 @@ public class MainActivity extends AppCompatActivity {
      */
 
     /**
-     * 由于涉及到某些人的利益，无法直接提供，若有需要请联系作者，效果看截屏
+     * 由于涉及到"别人的利益"，无法直接提供，若有需要请联系作者
      */
+
+    public void shareToQQBySupper(View view) {
+        ShareManager.startShare(MainActivity.this, Constant.SHARE_WAY_FROM_SUPPER, Constant.PLATFORM_QQ, shareData);
+    }
+
+    public void shareToQQZoneBySupper(View view) {
+        ShareManager.startShare(MainActivity.this, Constant.SHARE_WAY_FROM_SUPPER, Constant.PLATFORM_QZONE, shareData);
+    }
+
+    public void shareToWechatBySupper(View view) {
+        ShareManager.startShare(MainActivity.this, Constant.SHARE_WAY_FROM_SUPPER, Constant.PLATFORM_WECHAT, shareData);
+    }
+
+    public void shareToWechatMonmentBySupper(View view) {
+        ShareManager.startShare(MainActivity.this, Constant.SHARE_WAY_FROM_SUPPER, Constant.PLATFORM_WECHAT_MONMENT, shareData);
+    }
 
 }

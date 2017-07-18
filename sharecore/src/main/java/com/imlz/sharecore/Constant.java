@@ -11,6 +11,7 @@ public class Constant {
     public static final String SHARE_WAY_FROM_APP = "FROM_APP";
     public static final String SHARE_WAY_FROM_BROSWER = "FROM_BROSWER";
     public static final String SHARE_WAY_FROM_ASSISTANT = "FROM_ASSISTANT";
+    public static final String SHARE_WAY_FROM_SUPPER = "FROM_SUPPER";
 
     //分享平台
     public static final String PLATFORM_WECHAT = "WECHAT";

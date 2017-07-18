@@ -112,18 +112,6 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="shareToQQByAssistant"
-                android:text="Schema-QQ分享" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="shareToQQZoneByAssistant"
-                android:text="Schema-QQ空间分享" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:onClick="shareToWechatByAssistant"
                 android:text="插件-微信好友分享" />
 
@@ -132,6 +120,37 @@
                 android:layout_height="wrap_content"
                 android:onClick="shareToWechatMonmentByAssistant"
                 android:text="插件-微信朋友圈分享" />
+
+            <!--这里是分割线-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="------------------------我是分割线----------------------------" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="shareToQQBySupper"
+                android:text="Supper-QQ分享" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="shareToQQZoneBySupper"
+                android:text="Supper-QQ空间分享" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="shareToWechatBySupper"
+                android:text="Supper-微信好友分享" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="shareToWechatMonmentBySupper"
+                android:text="Supper-微信朋友圈分享" />
 
             <!--这里是分割线-->
             <TextView
