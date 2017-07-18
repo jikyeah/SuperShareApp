@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="shareToQQBySys"
+                android:text="系统-QQ分享" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="shareToQZoneBySys"
+                android:text="系统-QQ空间分享(无效)" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="shareToWechatBySys"
+                android:text="系统-微信好友分享" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="shareToWechatMonmentBySys"
+                android:text="系统-微信朋友圈分享(同微信好友)" />
+
+            <!--这里是分割线-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="------------------------我是分割线----------------------------" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="shareToQQByAPP"
+                android:text="APP-QQ分享(参考)" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="shareToQZoneByAPP"
+                android:text="APP-QQ空间分享(参考)" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="shareToWechatByAPP"
+                android:text="APP-微信好友分享" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="shareToWechatMonmentByAPP"
+                android:text="APP-微信朋友圈分享(参考)" />
+
+            <!--这里是分割线-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="------------------------我是分割线----------------------------" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="shareToQQByBroswer"
+                android:text="浏览器-QQ分享" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="shareToQQZoneByBroswer"
+                android:text="浏览器-QQ空间分享" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="shareToWechatByBroswer"
+                android:text="浏览器-微信好友分享" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="shareToWechatMonmentByBroswer"
+                android:text="浏览器-微信朋友圈分享" />
+
+            <!--这里是分割线-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="------------------------我是分割线----------------------------" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="shareToQQByAssistant"
+                android:text="Schema-QQ分享" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="shareToQQZoneByAssistant"
+                android:text="Schema-QQ空间分享" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="shareToWechatByAssistant"
+                android:text="插件-微信好友分享" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="shareToWechatMonmentByAssistant"
+                android:text="插件-微信朋友圈分享" />
+
+            <!--这里是分割线-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="------------------------我是分割线----------------------------" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
